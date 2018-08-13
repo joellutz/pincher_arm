@@ -1,0 +1,6 @@
+<launch>
+  <!-- Run a python script to subscribe to the PointCloud topic of the Kinect camera -->
+  <node name="subscriber2PointCloud" pkg="turtlebot_arm_moveit_demos" type="subscriber_PointCloud.py" output="screen"/>
+  <!-- Rund a python script which moves the robot arm around -->
+  <node name="move_arm_around" pkg="turtlebot_arm_moveit_demos" type="move_arm_around.py" output="screen"/>
+</launch>
