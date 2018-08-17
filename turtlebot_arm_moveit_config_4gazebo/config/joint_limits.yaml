@@ -3,27 +3,27 @@
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
   arm_elbow_flex_joint:
-    has_velocity_limits: true
-    max_velocity: 1.571
+    has_velocity_limits: false      # used to be: true
+    max_velocity: 0                 # used to be: 1.571 rad/sec
     has_acceleration_limits: false
     max_acceleration: 0
   arm_shoulder_lift_joint:
-    has_velocity_limits: true
-    max_velocity: 1.571
+    has_velocity_limits: false
+    max_velocity: 0
     has_acceleration_limits: false
     max_acceleration: 0
   arm_shoulder_pan_joint:
-    has_velocity_limits: true
-    max_velocity: 1.571
+    has_velocity_limits: false
+    max_velocity: 0
     has_acceleration_limits: false
     max_acceleration: 0
   arm_wrist_flex_joint:
-    has_velocity_limits: true
-    max_velocity: 1.571
+    has_velocity_limits: false
+    max_velocity: 0
     has_acceleration_limits: false
     max_acceleration: 0
   gripper_link_joint:
-    has_velocity_limits: true
-    max_velocity: 1
+    has_velocity_limits: false    # used to be: true
+    max_velocity: 0               # used to be: 1
     has_acceleration_limits: false
     max_acceleration: 0
